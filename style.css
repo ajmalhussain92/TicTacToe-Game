@@ -1,22 +1,9 @@
-#currentTime{
-    color:yellow;
-    font-size: 20px;
-    bottom: 0;
-    position: fixed;
-    background-color: dodgerblue;
-}
-
 body {
     background-color: teal;
     text-align: center;
 }
 
-.theme1 {
-    background-color: #f2f2f2;
-    text-align: center;
-}
-
-h1{
+h1 {
     width: 500px;
     padding: 10px 0 10px;
     border: 1px solid gold;
@@ -26,7 +13,8 @@ h1{
     box-shadow: 0 0 15px;
     margin: auto;
 }
-.container{
+
+.container {
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +22,7 @@ h1{
     align-items: center;
 }
 
-.game{
+.game {
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -44,7 +32,7 @@ h1{
     gap: 1.5vmin;
 }
 
-.box{
+.box {
     height: 19vmin;
     width: 19vmin;
     border: none;
@@ -53,9 +41,10 @@ h1{
     font-size: 8vmin;
     color: maroon;
     background-color: wheat;
+    cursor: pointer;
 }
 
-#reset-btn{
+#reset-btn {
     color: white;
     background-color: #333;
     font-style: bold;
@@ -65,12 +54,13 @@ h1{
     cursor: pointer;
     font-size: 20px;
 }
-#reset-btn:hover{
+
+#reset-btn:hover {
     background-color: #1a1d23;
     opacity: .8;
 }
 
-#new-btn{
+#new-btn {
     color: white;
     background-color: #333;
     font-style: bold;
@@ -80,19 +70,22 @@ h1{
     cursor: pointer;
     font-size: 20px;
 }
-#new-btn:hover{
-    
+
+#new-btn:hover {
+
     background-color: #1a1d23;
     opacity: .8;
 }
 
-#msg{
+#msg {
     color: greenyellow;
     font-size: 40px;
 }
-.msg-container{
+
+.msg-container {
     height: 10vmin;
 }
-.hide{
+
+.hide {
     display: none;
 }
